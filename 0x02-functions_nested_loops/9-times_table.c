@@ -2,6 +2,7 @@
 
 /**
  * times_tables - prints the 9 times table, starting with 0.
+ * description: int will check
  */
 void times_table(void)
 {
