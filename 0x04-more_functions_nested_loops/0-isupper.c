@@ -1,13 +1,15 @@
 #include "main.h"
-#include <unistd>
+
 /**
- * _putchar - writes the character c to stdout
- * @c: the character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set approprietly
+ * _isupper - checks for uppercase character
+ * @c: int to check
+ * Return: 1 if c is uppercase, 0 if otherwise
  */
-int _putchar(cjar c)
+
+int _isupper(int c)
 {
-        return (write(1, &, 1));
+	if ((c >= 'A') && (c <= 'Z'))
+		return (1);
+	else
+		return (0);
 }
