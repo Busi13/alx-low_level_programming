@@ -2,9 +2,9 @@
 
 /**
  * _strncpy - function that copies a string
- * @dest: input value
- * @src: input value
- * @n: input value
+ * @dest: input
+ * @src: input
+ * @n: input
  * Return: dest
  */
 
