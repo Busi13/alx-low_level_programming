@@ -3,7 +3,7 @@
 /**
  * _memset - function that fills memory with a constant byte
  * @s: starting address of memory
- * @: desired value
+ * @b: desired value
  * @n: number of bites
  *
  * Return: cahnged array with now value for n bytes
