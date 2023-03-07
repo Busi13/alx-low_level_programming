@@ -5,12 +5,13 @@
  * @s: starting address of memory
  * @: desired value
  * @n: number of bites
+ *
  * Return: cahnged array with now value for n bytes
  */
 
-char *_putchar(char *c, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
-	int = 0;
+	int i = 0;
 
 	for (; n > 0; i++)
 	{
